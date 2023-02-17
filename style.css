@@ -1,0 +1,39 @@
+body{
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.container{
+display: flex;
+
+}
+.btn{
+ width: 100px;
+ height: 100px;
+ margin: 5px;
+ }
+ .btn:active{
+  transform: scale(80%);
+ }
+ #red{
+ background-color: red;
+}
+#yellow{
+ background-color: yellow;
+}
+#green{
+ background-color: green;
+}
+.clear{
+ padding: 10px;
+ background-color: rgb(36, 6, 6); 
+ color: white;
+}
+.clear:active{
+  transform: scale(90%);
+ }
