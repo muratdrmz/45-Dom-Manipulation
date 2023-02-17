@@ -15,6 +15,24 @@ const titleEl=document.getElementById('title');
 // // console.log(btnEls[2].value);
 
 
+
+// let title=document.getElementById("title")
+// // console.log('before:', message);
+// title.innerHTML=`<p>${message}</p>`
+// title.style.backgroundColor='red'
+// let redDiv=document.getElementById("red");
+// let yellowDiv=document.getElementById("yellow");
+// let greenDiv=document.getElementById("green")
+// redDiv.onclick=()=>console.log("you clicked red");
+// yellowDiv.onclick=()=>console.log("you clicked yellow");
+// greenDiv.onclick=()=>console.log("you clicked green");
+
+// function redd(){
+//  console.log("redfdfdfdd");
+// }
+// redDiv.onclick=redd
+
+
 const timesClicked = { red: 0, yellow: 0, green: 0 };
 
 btnEls.forEach(btnEl=>{
